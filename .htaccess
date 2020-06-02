@@ -1,0 +1,5 @@
+RewriteEngine on
+
+# rewrites for the API
+RewriteRule ^api/([a-z-]+)/?$ api.php?r=$1 [QSA,L]
+RewriteRule ^api/([a-z-]+)/([0-9]+)/([0-9]+)/?$ api.php?r=$1&x=$2&y=$3 [QSA,L]
