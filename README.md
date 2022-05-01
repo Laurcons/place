@@ -8,10 +8,10 @@ This project is a JavaScript/PHP implementation of Reddit's r/place event that t
 * Has a MySQL backend (that works okay-ish only if your board is not larger than 250k tiles)
 * Pretty configurable
 ## Already online!
-The game is online already on [SickGamez](https://sickgamez.com)! If you just wanna play, go over to that site and find the game in the gamez list.
+The game is online already on [~~SickGamez~~](https://sickgamez.com)! If you just wanna play, go over to that site and find the game in the gamez list.
 ## Bot support
 The API is bot-ready. You can use the API bot interface to create your own clients for the game, be it using the backend hosted on SickGamez or anywhere else.
-The bot API reference can be found [here](https://laurcons.ucoz.org/files/place/apidocs.html).
+The bot API reference can be found [here](http://old.laurcons.ro/files/place/apidocs.html).
 ## Installation
 * You need an Apache server with mod_rewrite on.
 * Place the files somewhere on your server so that they are accessible under the path "/place". You can view and modify the AJAX calls in the `place.js` file if you want to be able to use a different path. You are looking for the functions that start with `ajax_`.
